@@ -1,0 +1,7 @@
+Generate dot files symlink `stow .`
+Add files or folders you dont want to be symlinked to .stow-local-ignore
+
+add new dot file to stow:
+	1. move the dotfile from its original location to the dotfiles directory
+		- File structure must be the same as it would be on your home dir. So if a dotfile is in .config/coolApp/config, that file structure must be preserved in the stow dotfiles folder.
+	2. run `stow .`
