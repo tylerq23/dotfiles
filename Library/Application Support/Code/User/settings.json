@@ -1,0 +1,77 @@
+{
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.wrapTabs": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vim.enableNeovim": true,
+    "vim.neovimUseConfigFile": true,
+    "vscode-neovim.neovimInitVimPaths.darwin": "/Users/tylerquast/.config/nvim/init.lua",
+    "settingsSync.ignoredSettings": [
+        
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+
+    // Found online minimal config
+    "editor.renderwhitespace": "none", // removes indent guides
+    "editor.renderlinehighlight": "none", // removes line highlight
+    "editor.overviewrulerborder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+    "editor.hidecursorinoverviewruler": true, // hides cursor mark in the overview ruler
+    "editor.folding": false, // removes the folding feature
+    "editor.occurrenceshighlight": "off", // removes highlights occurrences (still works when you select a word)
+    "editor.matchbrackets": "never", // removes the highlight of matching brackets (i use subtle match brackets extension for this)
+    "editor.glyphmargin": false, // removes the space used mainly for debugging indicators
+    "explorer.openEditors.visible": 4, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+    // "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+    "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
+    "workbench.statusBar.visible": false, // removes the status bar
+    "indenticator.color.dark": "rgba(255,255,255,.1)", // adds a subtle indent guide (needs Indenticator extension)
+    "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference 
+      "tab.activeBorder": "#0000" // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+    },
+    "editor.guides.indentation": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false
+
+    // "vim.foldfix": true,
+    // "vim.leader": " ",
+    // "vim.normalModeKeyBindings": [
+    //     {
+    //     "before": ["g", "p", "d"],
+    //     "commands": ["editor.action.peekDefinition"]
+    //     },
+    //     {
+    //     "before": ["g", "h"],
+    //     "commands": ["editor.action.showDefinitionPreviewHover"]
+    //     },
+    //     {
+    //     "before": ["g", "i"],
+    //     "commands": ["editor.action.goToImplementation"]
+    //     },
+    //     {
+    //     "before": ["g", "p", "i"],
+    //     "commands": ["editor.action.peekImplementation"]
+    //     },
+    //     {
+    //     "before": ["g", "q"],
+    //     "commands": ["editor.action.quickFix"]
+    //     },
+    //     {
+    //     "before": ["g", "r"],
+    //     "commands": ["editor.action.referenceSearch.trigger"]
+    //     },
+    //     {
+    //     "before": ["g", "t"],
+    //     "commands": ["editor.action.goToTypeDefinition"]
+    //     },
+    //     {
+    //     "before": ["g", "p", "t"],
+    //     "commands": ["editor.action.peekTypeDefinition"]
+    //     },
+    // ],
+}
